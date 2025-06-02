@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود به فروشگاه</title>
+    <link rel="stylesheet" href="login.css">
+    
+    
+</head>
+<body>
+    <div class="login-container" id="login-container">
+        <h2>ورود به فروشگاه</h2>
+        <form id="login-container">
+            <input type="text" placeholder="نام کاربری" required>
+            <input type="password" placeholder="رمز عبور" required>
+            <button  type="submit">ورود</button>
+            <a href="#">رمز عبور خود را فراموش کرده‌اید؟</a>
+            <a href="#">ثبت‌نام</a>
+        </form>
+    </div>
+</body>
+<script>
+        const button = document.getElementById('login-container');
+        
+        button.addEventListener('submit', () => {
+            alert('خطای سرور!! سایت فعلا روی حالت افلاین است');
+        });
+    </script>
+</html>
